@@ -1,8 +1,5 @@
 package pl.qbin.playground.scala.fpinscala.basics
 
-
-
-
 object HelloWorld extends App {
 
   override def main(args: Array[String]): Unit = {
@@ -32,7 +29,6 @@ object HelloWorld extends App {
 
   def hof(f: Int => Int, number: Int) =
     f(number)
-
 
   println("Hello world");
 }
